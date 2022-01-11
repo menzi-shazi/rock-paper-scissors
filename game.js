@@ -49,7 +49,7 @@ let rock = document.querySelector(".rock");
 rock.addEventListener("click", () => {
     result.textContent=singleRound(rock.getAttribute("class").toUpperCase(),computerPlay());
     score.textContent = `player: ${playerScore}, computer: ${compScore}`;
-
+    
 });
 
 let paper = document.querySelector(".paper");
